@@ -1,0 +1,10 @@
+{
+	"name": "ls_keyvault_api_key",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://charitha98.vault.azure.net/"
+		}
+	}
+}
