@@ -1,0 +1,9 @@
+{
+	"name": "dfsucharitha251298",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4d7f3c91-7ae5-4939-8ed3-f2f6df453de7",
+		"tenantId": "17e46124-a380-4096-841f-150cd2c41f95"
+	}
+}
