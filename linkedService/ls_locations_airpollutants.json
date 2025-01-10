@@ -6,7 +6,16 @@
 		"typeProperties": {
 			"url": "https://api.openaq.org/v3/locations",
 			"enableServerCertificateValidation": true,
-			"authenticationType": "Anonymous"
+			"authenticationType": "Basic",
+			"userName": "X-API-Key",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_keyvault_api_key",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "X-API-Key"
+			}
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/linkedservices"
