@@ -4,18 +4,9 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://api.openaq.org/v3/locations/1274941",
+			"url": "https://api.openaq.org/v3/locations",
 			"enableServerCertificateValidation": true,
-			"authenticationType": "Basic",
-			"userName": "X-API-Key",
-			"password": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "ls_keyvault_api_key",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "X-API-Key"
-			}
+			"authenticationType": "Anonymous"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/linkedservices"
