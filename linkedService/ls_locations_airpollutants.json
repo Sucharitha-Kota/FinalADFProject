@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://api.openaq.org/v3/locations",
+			"url": "https://api.openaq.org/v3/locations/1274941",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Basic",
 			"userName": "X-API-Key",
