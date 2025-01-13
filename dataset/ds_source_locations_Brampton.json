@@ -1,0 +1,12 @@
+{
+	"name": "ds_source_locations_Brampton",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_locations_airpollutants_Brampton",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

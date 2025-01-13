@@ -1,0 +1,12 @@
+{
+	"name": "ds_source_locations_sirpollutants",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_locations_airpollutants",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
