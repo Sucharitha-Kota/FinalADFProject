@@ -1,0 +1,12 @@
+{
+	"name": "ls_locations_airpollutants_Missisauga",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.openaq.org/v3/locations/1365268",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
