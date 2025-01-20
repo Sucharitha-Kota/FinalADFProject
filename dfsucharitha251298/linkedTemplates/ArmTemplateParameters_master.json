@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfsucharitha251298"
+		},
+		"ls_dailydelta_accessToken": {
+			"value": ""
+		},
+		"ls_sink_ingestion_accountKey": {
+			"value": ""
+		},
+		"ls_sink_locations_airpollutants_accountKey": {
+			"value": ""
+		},
+		"ls_source_ingestion_accountKey": {
+			"value": ""
+		},
+		"ls_dailydelta_properties_typeProperties_existingClusterId": {
+			"value": "0113-190727-u1a29819"
+		},
+		"ls_locations_airpollutants_properties_typeProperties_url": {
+			"value": "https://api.openaq.org/v3/locations/7570"
+		},
+		"ls_locations_airpollutants_Brampton_properties_typeProperties_url": {
+			"value": "https://api.openaq.org/v3/locations/1274941"
+		},
+		"ls_locations_airpollutants_Missisauga_properties_typeProperties_url": {
+			"value": "https://api.openaq.org/v3/locations/1365268"
+		},
+		"ls_sink_ingestion_properties_typeProperties_url": {
+			"value": "https://sinkstorage98.dfs.core.windows.net/"
+		},
+		"ls_sink_locations_airpollutants_properties_typeProperties_url": {
+			"value": "https://ingestion98.dfs.core.windows.net/"
+		},
+		"ls_source_ingestion_properties_typeProperties_url": {
+			"value": "https://ingestion98.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
