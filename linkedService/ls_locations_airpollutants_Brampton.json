@@ -1,0 +1,12 @@
+{
+	"name": "ls_locations_airpollutants_Brampton",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.openaq.org/v3/locations/1274941",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

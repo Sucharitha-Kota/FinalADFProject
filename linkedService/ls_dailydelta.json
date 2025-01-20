@@ -1,0 +1,13 @@
+{
+	"name": "ls_dailydelta",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-852854166110089.9.azuredatabricks.net",
+			"existingClusterId": "0113-190727-u1a29819",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDA4QzIwNjNBLTk3NjQtNDI0Ri04QzU2LUY5NDg0QTNFQUI2RV9kZWUwNmIzYS03OGY3LTQ3OTctOWQ0My0yM2E0ZmQxYThmMmEiDQp9"
+		}
+	}
+}
